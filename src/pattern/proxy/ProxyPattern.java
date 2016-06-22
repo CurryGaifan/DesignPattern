@@ -1,7 +1,7 @@
 package pattern.proxy;
 
 /**
- * 为其他对象提供一种代理，并以控制对这个对象的访问
+ * 涓哄叾浠栧璞℃彁渚涗竴绉嶄唬鐞嗭紝骞朵互鎺у埗瀵硅繖涓璞＄殑璁块棶
  * @ClassName: ProxyPattern 
  * @Description: TODO
  * @author gaifan

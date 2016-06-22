@@ -1,8 +1,8 @@
 package pattern.factory;
 
 /**
- * ���󹤳�ģʽ�͹�������ģʽ�������������Ҫ��������ĸ��ӳ̶��ϡ����ҳ��󹤳�ģʽ������������Ϊ�������һ���Ե�
- * ����һ���Ʒ�Ĺ�ϵ��
+ * 抽象工厂模式和工厂方法模式的区别就在于需要创建对象的复杂程度上。而且抽象工厂模式是三个里面最为抽象、最具一般性的
+ * 定义一组产品的关系。
  * @ClassName: AbstractFactory 
  * @Description: TODO
  * @author gaifan

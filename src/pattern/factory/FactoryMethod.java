@@ -1,7 +1,7 @@
 package pattern.factory;
 
 /**
- * �����ڼ򵥹���ģʽ�Ｏ���ڹ��������ϵ�ѹ�������ɹ�������ģʽ�ﲻͬ�Ĺ����������ֵ�
+ * 这样在简单工厂模式里集中在工厂方法上的压力可以由工厂方法模式里不同的工厂子类来分担
  * @ClassName: FactoryMethod 
  * @Description: TODO
  * @author gaifan
