@@ -12,7 +12,7 @@ package pattern.action.strategy;
 public class Strategy {
 	public static void main(String[] args) {
 		Context c = new Context(new StrategyA());
-		c.excute();
+		c.execute();
 	}
 
 }
@@ -29,7 +29,7 @@ class Context {
 		this.strategy = strategy;
 	}
 
-	public void excute() {
+	public void execute() {
 		strategy.doSomething();
 	}
 

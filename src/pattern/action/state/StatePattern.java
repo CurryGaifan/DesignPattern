@@ -11,10 +11,10 @@ package pattern.action.state;
 public class StatePattern {
 	public static void main(String[] args) {
 		Context c = new Context(new State1());
-		c.excute();
-		c.excute();
-		c.excute();
-		c.excute();
+		c.execute();
+		c.execute();
+		c.execute();
+		c.execute();
 	}
 }
 
@@ -50,7 +50,7 @@ class Context{
 	public void setS(IState s) {
 		this.s = s;
 	}
-	public void excute(){
+	public void execute(){
 		s.handle(this);
 	}
 }

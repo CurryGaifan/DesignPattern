@@ -34,7 +34,7 @@ abstract class AbstractClass {
 
 	private final void doOperation3() {
 
-		System.out.println("doOperation3();");
+		System.out.println("doOperation3()");
 
 	}
 }
@@ -42,17 +42,13 @@ abstract class AbstractClass {
 class ConcreteClass extends AbstractClass {
 	public void primitiveMethod1() {
 
-		// write your code here
-
-		System.out.println("primitiveMethod1();");
+		System.out.println("primitiveMethod1()");
 
 	}
 
 	public void primitiveMethod2() {
 
-		// write your code here
-
-		System.out.println("primitiveMethod2();");
+		System.out.println("primitiveMethod2()");
 
 	}
 }
